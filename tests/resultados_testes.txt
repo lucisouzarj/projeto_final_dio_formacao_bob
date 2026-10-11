@@ -1,0 +1,160 @@
+﻿============================================================
+ RELATORIO DE TESTES - SLASH COMMANDS DIO
+ Data/Hora : 2026-10-11 19:54:57
+ Projeto   : projeto_final_dio_formacao_bob
+ Suite     : tests/test_commands.ps1
+============================================================
+
+--- GRUPO 1: Estrutura de data/trilhas.json ---
+  [PASS] Arquivo trilhas.json existe
+  [PASS] trilhas.json contem chave 'Java'
+  [PASS] trilhas.json contem chave 'Python'
+  [PASS] trilhas.json contem chave 'JavaScript'
+  [PASS] trilhas.json contem chave 'TypeScript'
+  [PASS] trilhas.json contem chave 'React'
+  [PASS] Trilha Java tem 6 modulos
+  [PASS] Trilha Python tem 7 modulos
+  [PASS] Trilha Java tem campo 'descricao'
+  [PASS] Trilha Java tem campo 'nivel'
+
+--- GRUPO 2: /trilha Java ---
+  [PASS] Retorna titulo 'Trilha de Java'
+  [PASS] Retorna descricao da trilha Java
+  [PASS] Retorna nivel da trilha Java
+  [PASS] Modulo 1 presente
+  [PASS] Modulo 6 presente
+  [PASS] Topico 'JDK e JVM' no modulo 1
+  [PASS] Topico 'Spring Boot' no modulo 5
+  [PASS] Topico 'Testes com JUnit' no modulo 6
+  [PASS] Mensagem motivacional presente
+
+--- GRUPO 2b: /trilha case-insensitive ---
+  [PASS] Busca 'java' (lowercase) encontra trilha
+  [PASS] Busca 'JAVA' (uppercase) encontra trilha
+  [PASS] Busca 'JaVa' (mixed) encontra trilha
+
+--- GRUPO 2c: /trilha tecnologia inexistente ---
+  [PASS] Retorna mensagem de erro para 'Rust'
+  [PASS] Lista trilhas disponiveis ao nao encontrar
+  [PASS] Lista Python entre as disponiveis
+
+--- GRUPO 3: /desafio Java ---
+  [PASS] Desafio iniciante contem nivel 'iniciante'
+  [PASS] Desafio intermediario contem 'intermediario'
+  [PASS] Desafio avancado contem 'avancado'
+  [PASS] Nivel invalido cai para 'iniciante'
+  [PASS] Desafio contem secao Descricao
+  [PASS] Desafio contem secao Requisitos
+  [PASS] Desafio contem secao Dicas
+  [PASS] Desafio contem tabela de avaliacao
+  [PASS] Desafio contem peso 40%
+  [PASS] Desafio iniciante tem tempo 30 minutos
+  [PASS] Desafio intermediario tem tempo 1 hora
+  [PASS] Desafio avancado tem tempo 2 horas
+  [PASS] Desafio menciona a tecnologia Java
+
+--- GRUPO 4: /certificado ---
+  [PASS] Certificado contem nome do aluno
+  [PASS] Certificado contem trilha Java
+  [PASS] Certificado contem mensagem de parabenizacao
+  [PASS] Certificado contem carga horaria 80h
+  [PASS] Certificado contem competencia Spring Boot
+  [PASS] Certificado contem competencia JUnit
+  [PASS] Certificado contem Powered by Bob
+  [PASS] Certificado contem codigo DIO-AAAA-XXXXXX
+  [PASS] Certificado React contem nome da aluna
+  [PASS] Certificado React contem trilha React
+  [PASS] Trilha desconhecida usa competencias padrao
+
+--- GRUPO 5: Arquivos de saida ---
+  [PASS] Arquivo desafio_java.md existe
+  [PASS] Arquivo certificado_aluno.md existe
+  [PASS] desafio_java.md contem cabecalho do desafio
+  [PASS] desafio_java.md contem tecnologia Java
+  [PASS] certificado_aluno.md contem nome Helton
+  [PASS] certificado_aluno.md contem trilha Java
+  [PASS] certificado_aluno.md contem Spring Boot
+
+--- GRUPO 6: Arquivos .bob/commands/ ---
+  [PASS] Diretorio .bob/commands existe
+  [PASS] Arquivo trilha.md existe
+  [PASS] Arquivo desafio.md existe
+  [PASS] Arquivo certificado.md existe
+  [PASS] trilha.md tem frontmatter description
+  [PASS] trilha.md tem argument-hint
+  [PASS] desafio.md tem frontmatter description
+  [PASS] desafio.md tem argument-hint duplo
+  [PASS] certificado.md tem argument-hint duplo
+  [PASS] certificado.md instrui gerar codigo
+
+============================================================
+ RESULTADO FINAL
+============================================================
+ Total de testes : 66
+ Aprovados       : 66
+ Reprovados      : 0
+ Cobertura       : 100%
+ Status          : APROVADO (>= 70%)
+============================================================
+
+============================================================
+ SAIDA: /desafio Java intermediario
+============================================================
+# Desafio de Codigo - Java (intermediario)
+
+## Descricao
+Implemente um CRUD de usuarios salvando dados em um arquivo JSON local.
+
+## Requisitos
+* Implemente a solucao completa em Java
+* Trate entradas invalidas com mensagens de erro claras
+* Escreva pelo menos 2 testes unitarios
+* Documente as funcoes principais
+
+## Dicas
+* Quebre o problema em funcoes menores antes de implementar
+* Revise os conceitos de intermediario antes de comecar
+
+## Criterios de Avaliacao
+| Criterio      | Peso |
+|---------------|------|
+| Correcao      | 40%  |
+| Legibilidade  | 30%  |
+| Boas praticas | 20%  |
+| Criatividade  | 10%  |
+
+## Tempo sugerido
+1 hora
+
+============================================================
+ SAIDA: /certificado "Helton Cavalcanti" Java
+============================================================
+# CERTIFICADO DE CONCLUSAO
+
+Certificamos que
+
+## Helton Cavalcanti
+
+concluiu com exito a trilha de formacao:
+
+## Java
+
+Data de emissao : 11 de outubro de 2026
+Codigo          : DIO-2026-PGTUPM
+Carga horaria   : 80h
+
+### Competencias adquiridas
+* Programacao orientada a objetos com Java
+* Desenvolvimento de APIs REST com Spring Boot
+* Persistencia de dados com Spring Data JPA
+* Seguranca com Spring Security
+* Testes com JUnit 5 e Mockito
+* Streams API e programacao funcional
+* Deploy de aplicacoes Java em nuvem
+
+### Parabens, Helton Cavalcanti!
+Voce concluiu a trilha de Java e esta pronto para o mercado.
+Continue estudando e compartilhando conhecimento!
+
+*Certificado ficticio gerado para fins de aprendizado.*
+*Powered by Bob - IBM*

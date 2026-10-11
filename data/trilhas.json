@@ -1,0 +1,187 @@
+{
+  "Python": {
+    "descricao": "Trilha completa de Python do zero ao avançado",
+    "nivel": "iniciante ao avançado",
+    "modulos": [
+      {
+        "numero": 1,
+        "titulo": "Fundamentos de Python",
+        "topicos": ["Sintaxe básica", "Tipos de dados", "Variáveis e operadores", "Entrada e saída"]
+      },
+      {
+        "numero": 2,
+        "titulo": "Estruturas de Controle",
+        "topicos": ["Condicionais (if/elif/else)", "Laços (for, while)", "break e continue", "Compreensão de listas"]
+      },
+      {
+        "numero": 3,
+        "titulo": "Funções e Módulos",
+        "topicos": ["Definição de funções", "Parâmetros e retorno", "Lambda", "Importação de módulos"]
+      },
+      {
+        "numero": 4,
+        "titulo": "Estruturas de Dados",
+        "topicos": ["Listas", "Tuplas", "Dicionários", "Conjuntos (sets)"]
+      },
+      {
+        "numero": 5,
+        "titulo": "Orientação a Objetos",
+        "topicos": ["Classes e objetos", "Herança", "Encapsulamento", "Polimorfismo"]
+      },
+      {
+        "numero": 6,
+        "titulo": "Bibliotecas Essenciais",
+        "topicos": ["os e sys", "datetime", "json", "requests"]
+      },
+      {
+        "numero": 7,
+        "titulo": "Projeto Final",
+        "topicos": ["Desenvolvimento de uma aplicação completa", "Testes unitários com pytest", "Publicação no GitHub"]
+      }
+    ]
+  },
+  "JavaScript": {
+    "descricao": "Trilha completa de JavaScript moderno (ES6+)",
+    "nivel": "iniciante ao avançado",
+    "modulos": [
+      {
+        "numero": 1,
+        "titulo": "Fundamentos de JavaScript",
+        "topicos": ["Variáveis (var, let, const)", "Tipos primitivos", "Operadores", "Console e debugging"]
+      },
+      {
+        "numero": 2,
+        "titulo": "Funções e Escopo",
+        "topicos": ["Funções declarativas e expressões", "Arrow functions", "Closures", "Hoisting"]
+      },
+      {
+        "numero": 3,
+        "titulo": "Arrays e Objetos",
+        "topicos": ["Métodos de array (map, filter, reduce)", "Desestruturação", "Spread e rest", "Objetos e protótipos"]
+      },
+      {
+        "numero": 4,
+        "titulo": "Assincronismo",
+        "topicos": ["Callbacks", "Promises", "async/await", "Fetch API"]
+      },
+      {
+        "numero": 5,
+        "titulo": "DOM e Browser APIs",
+        "topicos": ["Seleção de elementos", "Eventos", "Manipulação do DOM", "LocalStorage"]
+      },
+      {
+        "numero": 6,
+        "titulo": "Módulos e Tooling",
+        "topicos": ["ES Modules (import/export)", "npm e package.json", "Bundlers (Vite/Webpack)", "Linting e formatação"]
+      },
+      {
+        "numero": 7,
+        "titulo": "Projeto Final",
+        "topicos": ["SPA sem framework", "Consumo de API pública", "Deploy no GitHub Pages"]
+      }
+    ]
+  },
+  "TypeScript": {
+    "descricao": "Trilha de TypeScript para quem já conhece JavaScript",
+    "nivel": "intermediário ao avançado",
+    "modulos": [
+      {
+        "numero": 1,
+        "titulo": "Introdução ao TypeScript",
+        "topicos": ["Por que TypeScript?", "Instalação e configuração (tsconfig)", "Tipos básicos", "Inferência de tipos"]
+      },
+      {
+        "numero": 2,
+        "titulo": "Tipagem Avançada",
+        "topicos": ["Interfaces e tipos", "Union e Intersection types", "Generics", "Enums"]
+      },
+      {
+        "numero": 3,
+        "titulo": "OOP com TypeScript",
+        "topicos": ["Classes tipadas", "Modificadores de acesso", "Abstract classes", "Decorators"]
+      },
+      {
+        "numero": 4,
+        "titulo": "TypeScript no Node.js",
+        "topicos": ["Configuração para Node", "Tipagem de módulos externos (@types)", "Path aliases", "Build com tsc"]
+      },
+      {
+        "numero": 5,
+        "titulo": "Projeto Final",
+        "topicos": ["API REST tipada com Express + TypeScript", "Validação com Zod", "Testes com Jest + ts-jest"]
+      }
+    ]
+  },
+  "React": {
+    "descricao": "Trilha de React para desenvolvimento front-end moderno",
+    "nivel": "intermediário",
+    "modulos": [
+      {
+        "numero": 1,
+        "titulo": "Fundamentos do React",
+        "topicos": ["JSX", "Componentes funcionais", "Props e State", "Renderização condicional"]
+      },
+      {
+        "numero": 2,
+        "titulo": "Hooks",
+        "topicos": ["useState", "useEffect", "useContext", "Hooks customizados"]
+      },
+      {
+        "numero": 3,
+        "titulo": "Gerenciamento de Estado",
+        "topicos": ["Context API", "Zustand", "Introdução ao Redux Toolkit"]
+      },
+      {
+        "numero": 4,
+        "titulo": "Roteamento e Navegação",
+        "topicos": ["React Router v6", "Rotas dinâmicas", "Rotas protegidas", "Lazy loading"]
+      },
+      {
+        "numero": 5,
+        "titulo": "Performance e Boas Práticas",
+        "topicos": ["useMemo e useCallback", "React.memo", "Code splitting", "Testes com React Testing Library"]
+      },
+      {
+        "numero": 6,
+        "titulo": "Projeto Final",
+        "topicos": ["Aplicação full CRUD com API real", "Autenticação JWT", "Deploy na Vercel"]
+      }
+    ]
+  },
+  "Java": {
+    "descricao": "Trilha completa de Java com foco em back-end",
+    "nivel": "iniciante ao avançado",
+    "modulos": [
+      {
+        "numero": 1,
+        "titulo": "Fundamentos de Java",
+        "topicos": ["JDK e JVM", "Tipos primitivos e wrappers", "Operadores", "Controle de fluxo"]
+      },
+      {
+        "numero": 2,
+        "titulo": "Orientação a Objetos",
+        "topicos": ["Classes e objetos", "Herança e polimorfismo", "Interfaces e classes abstratas", "Encapsulamento"]
+      },
+      {
+        "numero": 3,
+        "titulo": "Collections e Generics",
+        "topicos": ["List, Set, Map", "Iterator", "Comparable e Comparator", "Generics"]
+      },
+      {
+        "numero": 4,
+        "titulo": "Java Moderno (Java 8+)",
+        "topicos": ["Lambdas", "Streams API", "Optional", "API de datas (java.time)"]
+      },
+      {
+        "numero": 5,
+        "titulo": "Spring Boot",
+        "topicos": ["Configuração do projeto", "REST Controllers", "Spring Data JPA", "Spring Security"]
+      },
+      {
+        "numero": 6,
+        "titulo": "Projeto Final",
+        "topicos": ["API REST com Spring Boot", "Banco de dados PostgreSQL", "Testes com JUnit 5", "Deploy no Railway"]
+      }
+    ]
+  }
+}
