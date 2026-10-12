@@ -27,7 +27,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // The data files live two levels up from mcp/build/
-const PROJECT_ROOT = resolve(__dirname, "..", "..", "..");
+const PROJECT_ROOT = resolve(__dirname, "..", "..");
 const TRILHAS_PATH = join(PROJECT_ROOT, "data", "trilhas.json");
 const TRILHAS_DIO_PATH = join(PROJECT_ROOT, "dio_explorer", "data", "trilhas_dio.json");
 
